@@ -13,7 +13,7 @@
 
 # Download, store and read all datasets with R
 
-setwd("C:/Users/Luis/OneDrive/Data Science John Hopkins")
+setwd("PUT YOUR DIRECTORY HERE")
 
 if (!file.exists("data")) {
   dir.create("data")
