@@ -75,10 +75,6 @@ complete_set$signal <- gsub("Gyro", "Giroscope", complete_set$signal)
 complete_set$signal <- gsub("Mag", "Magnitude", complete_set$signal)
 complete_set$signal <- gsub("BodyBody", "Body", complete_set$signal)
 
-# export dataset
-
-write.table(complete_set, "complete_set.txt", row.names = FALSE)
-
 # creation of a second tidy data set with the average of each variable for each activity and each subject
 
 average_grouped <- complete_set %>% 
